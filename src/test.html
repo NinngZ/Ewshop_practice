@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    function buildUrl(){
+        let qs = '?debug=true';
+        with(location){
+            var url = href + qs;
+        }
+        console.log(url)
+        return url;
+    }
+    buildUrl();*/
+    
+    /*const s = new Set([["111","val1"],"val2","val3"])
+    console.log(s.entries());
+    for(const i of s.keys()){
+        console.log(i)
+    }*/
+    /* let book = {};
+    Object.defineProperties(book,{
+        year_:{
+            value:2017
+        },
+        edition:{
+            value:1
+        },
+        year:{
+            get(){
+                return this.year_;
+            },
+            set(newValue){
+                if(newValue > 2017){
+                    this.year_= newValue;
+                    this.edition += newValue - 2017; 
+                }
+            }
+        }
+    })
+    console.log(book.year) */
+    /* dest = {
+        set a(val){
+            console.log(`xxxxxxxxxxxxxxx${val}`)
+        }
+    };
+    src = {
+        get a() {
+            console.log('bbbbbbbbbb');
+            return 'foo'
+        }
+    };
+    Object.assign(dest,src);
+    console.log(dest) */
+    /* let dest = {
+        id:'000',
+        set id(x){
+            
+            console.log(x);
+        }
+    }
+    let result =Object.assign(dest,{id:'111'},{id:'222'},{id:'333'});  //111 //222 //333
+    console.log(dest.id) //undefined */
+    /* let { constructor:c } = 4;
+    console.log(c===Number)
+    console.log(c)
+    let b = new Number(4);
+    console.log(b) */
+    /* console.log(constructor)
+    console.log(c.toString()) */
+    /* let Person=function(){};
+    console.log(typeof Person.prototype)
+    console.log(Person)
+    console.log(Person.prototype)
+    console.log(Person.prototype.constructor) */
+    /* function add(num1,num2){
+        arguments[1] = 10;
+        console.log(arguments[0] + num2)
+    }
+    add(10,33); */
+    /* let canshu = 'iiiii';
+    function foo(name = canshu){
+        console.log('测试：' + name)
+    }
+    foo('321'); */
+</script>
+</html>
