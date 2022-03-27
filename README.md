@@ -1,19 +1,13 @@
-# ewshop
+# Ewshop
 
-## Project setup
+## 项目场景
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+模拟自建商城，实现图书的预览、添加购物车、提交订单、查看&添加&编辑地址信息。
 ```
 
-### Compiles and minifies for production
+### 技术栈
 ```
-npm run build
+Vue全家桶(vue-cli + vue-router + vuex + Composition Api) + Axios。
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
